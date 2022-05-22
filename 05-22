@@ -1,0 +1,44 @@
+Frontend -클라이언트가 원하는 HTML을 보내주는 역할
+
+HTML, CSS 디자인 영역
+java script 웹 브라우저에서만 작동한다 (jquery, Ajax등..)
+js프레임워크 = angler.js/vue.js/ react.js(추세) 등..
+
+
+Backend - 서버의 처리 담당. 동적인 프로그램 영역
+웹서버 - 웹프레임워크(java-spring/ python-django/java script -node.js) - 데이터베이스
+        웹 프레임워크는 빠른게 장땡. node.js가 속도가 가장 빠르다.
+
+              tcp         
+(sync)동기    |H|e|l|l|o| -> req(요청) -> 요청지 -> 데이터 수신 == 매 번 요청 수락을 받아야함 ex)유튜브 댓글
+(async)비동기 |H|e|l|l|o| -> 요청지  == 일단 보내버림  ex)리치티비 채팅방
+               udp
+
+
+
+
+
+
+
+Infra - 하드웨어분야
+클라우드시스템  aws ,GCP-google cloud 
+시스템 소프트웨어 관리 - 도커 ,쿠버 네티스(추세)
+
+python에 AI 기술을 요구하는 경우가 많아지기 떄문에 나중에 fastapi를 사용해보기
+
+
+라이브러리
+
+동적라이브러리 = 프로그램 빌드 후 실행할때 연결하는 라이브러리
+windows =  .dll
+linux =.soo
+
+정적라이브러리 = 프로그램 빌드중에 연결된 라이브러리
+window =  .lib
+linux.a
+
+
+
+
+
+개발자로서 필요한 능력 = 문제 해결 능력 <= 다량의 프로젝트를 해보면서 해결능력을 키우
